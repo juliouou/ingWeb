@@ -71,7 +71,7 @@ Los patrones proporcionan una estructura probada para organizar el código y **s
     * Son **"sin estado"** (*Stateless*): el servidor no guarda información de la sesión entre peticiones, lo que mejora la escalabilidad.
     * Son el **estándar actual** para construir servicios web.
 
- ## Trabajo en Clase con XAMPP
+ ## Trabajo en Clase con XAMPPm
  <img width="1158" height="903" alt="Screenshot 2025-10-22 105313" src="https://github.com/user-attachments/assets/e4a25543-b08d-43a5-826b-b0828aee648b" />
  <img width="1919" height="969" alt="Screenshot 2025-10-22 111618" src="https://github.com/user-attachments/assets/414a3ebe-035b-479e-8198-fed574fc1192" />
  <img width="1919" height="1079" alt="Screenshot 2025-10-22 112509" src="https://github.com/user-attachments/assets/49d440cb-a04c-45a6-965d-c3a962b4a0c2" />
