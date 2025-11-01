@@ -1,0 +1,76 @@
+# Introducción a la Ingeniería Web
+
+## 1. Definición y Principios Fundamentales
+
+La **Ingeniería Web (IW)** es la disciplina que aplica principios de ingeniería de software para el **diseño, desarrollo, prueba y mantenimiento** de aplicaciones y sistemas basados en la web de forma sistemática y rigurosa.
+
+Su objetivo es asegurar la **calidad, usabilidad y escalabilidad** de los productos web, gestionando la complejidad del desarrollo en un entorno dinámico.
+
+### Principios Clave de la IW
+
+* **Usabilidad:** Facilidad con la que el usuario puede interactuar con el sistema.
+* **Diseño Centrado en el Contenido:** Priorizar la organización lógica y la calidad de la información.
+* **Estética:** Interfaz visualmente profesional y atractiva.
+* **Escalabilidad:** Capacidad de la aplicación para manejar un aumento significativo de usuarios y datos.
+* **Seguridad:** Implementación de medidas para proteger la información sensible y la integridad del sistema.
+* **Mantenibilidad:** Código modular y bien documentado que facilita futuras actualizaciones y correcciones.
+
+---
+
+## 2. Arquitecturas Web
+
+Una arquitectura define la estructura de la aplicación y cómo se comunican sus componentes.
+
+### 2.1. Cliente-Servidor (Clásica)
+
+| Componente | Descripción |
+| :--- | :--- |
+| **Cliente** | El dispositivo del usuario (navegador o app) que solicita recursos. |
+| **Servidor** | Máquina remota que procesa la solicitud, ejecuta la lógica de negocio y envía la respuesta. |
+| **Base de Datos** | Almacena la información que el servidor consulta. |
+| **Funcionamiento** | El cliente envía una petición HTTP al servidor, el servidor la procesa y devuelve una respuesta (generalmente HTML, CSS y JS). |
+
+### 2.2. Arquitectura de Tres Capas
+
+Es la más común en aplicaciones empresariales y separa responsabilidades:
+
+1.  **Capa de Presentación:** Interfaz de usuario (**Frontend**).
+2.  **Capa de Lógica de Negocio:** Donde se ejecuta el procesamiento y las reglas de la aplicación (**Backend**).
+3.  **Capa de Datos:** Almacenamiento y gestión de la información (Bases de Datos SQL/NoSQL).
+
+### 2.3. P2P (Peer-to-Peer)
+
+* **Descripción:** Los nodos (dispositivos) en la red actúan como clientes y como servidores al mismo tiempo.
+* **Ventaja:** Descentralización y resiliencia (no depende de un único servidor central).
+
+---
+
+## 3. El Ciclo de Vida del Desarrollo Web
+
+Un proceso estructurado para llevar la aplicación desde la idea hasta el lanzamiento y mantenimiento.
+
+1.  **Análisis y Planificación:**
+    * Definición de requisitos, alcance, objetivos y funcionalidades.
+2.  **Modelado y Diseño:**
+    * Diseño de la estructura de datos (tablas, relaciones).
+    * Diseño de la Interfaz de Usuario (UI/UX).
+    * Definición de la arquitectura del software.
+3.  **Implementación (Codificación):**
+    * Desarrollo del código del *Frontend* y el *Backend*.
+4.  **Pruebas (Testing):**
+    * Verificación funcional, de usabilidad y de rendimiento.
+5.  **Despliegue (Lanzamiento):**
+    * Puesta en producción y configuración de servidores.
+6.  **Mantenimiento y Evolución:**
+    * Corrección de errores (bugs), actualizaciones y adición de nuevas características.
+
+---
+
+## 4. Herramientas Esenciales
+
+| Herramienta | Tipo | Uso principal en Desarrollo Web |
+| :--- | :--- | :--- |
+| **Navegadores** | Cliente / Debugging | Visualización del sitio web y uso de sus herramientas de desarrollador para probar y depurar código. |
+| **Editores de Código / IDEs** | Codificación | Facilitan la escritura, organización y depuración del código (Ejemplo: Visual Studio Code). |
+| **Git (GitHub, GitLab)** | Control de Versiones | Permite a los equipos colaborar, rastrear cada cambio en el código y gestionar diferentes versiones del proyecto. |
+| **Servidores Web** | Backend | Software necesario para alojar y servir las aplicaciones web (Ejemplo: Apache, Nginx, Node.js). |
