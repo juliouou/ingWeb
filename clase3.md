@@ -1,8 +1,3 @@
-# Documento Técnico: Arquitectura, Protocolos y Patrones
-
-Este documento aborda los modelos de servidor, los protocolos de comunicación y los patrones de diseño de software esenciales para la construcción y la organización del sistema web.
-
----
 
 ## 1. Arquitecturas de Servidor (Modelos de Backend)
 
