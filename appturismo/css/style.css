@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:antiquewhite;
+
+
+}
+/*Css de la cabecera*/
+header.cabeceraPrincipal, .menuPrincipal, .sliderPrincipal{
+        background-color:green;
+        color: aliceblue;
+        
+        width: 80%;
+        margin: 40px 40px;
+        
+}
+
+.cabeceraPrincipal .logotipo{
+    background-color: green;
+    color:aliceblue;
+    width: 30%;
+    display: inline-block;
+    margin: 20px;
+}
+.cabeceraPrincipal .busqueda{
+    background-color: green;
+    color:aliceblue;
+    width: 60%;
+    display: inline-block;
+    margin:20px
+}
+
+.menuPrincipal{
+    background-color: violet;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav.menuPrincipal a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: width 2s;
+    padding: 10px;
+    
+}
+
+nav.menuPrincipal a:hover{
+    background-color:antiquewhite;
+    color: cadetblue;
+    transition: width 2s;
+    border-bottom: #6705ef 3px;
+
+}
+
+section.sliderPrincipal{
+    height: 400px;
+    text-align: center;
+}
+section.sliderPrincipal div{
+    padding-top: 30px;
+}
+section.sliderPrincipal div h2{
+font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-display: 20px;
+}
