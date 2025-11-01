@@ -21,3 +21,5 @@ HTML5 introdujo etiquetas **semánticas** (con significado claro) que permiten a
 | **`<aside>`** | Contenido **indirectamente relacionado** con el contenido principal (barra lateral). | *Widgets*, anuncios o enlaces relacionados. |
 | **`<footer>`** | Información final de la sección o del documento. | Derechos de autor, política de privacidad, datos de contacto. |
 
+<img width="1230" height="795" alt="image" src="https://github.com/user-attachments/assets/cfdaa364-5f31-466e-b20c-e8a7e6d3c9d3" />+
+
